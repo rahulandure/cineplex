@@ -1,0 +1,55 @@
+.carousel-inner {
+    height: 700px;
+}
+
+.carousel-inner .carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-caption h2 {
+    color: #fd0303;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.carousel-caption p {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.rowposter {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+
+.rowimage {
+    object-fit: contain;
+    max-height: 200px;
+    max-height: 100px;
+    box-sizing: content-box;
+    width: 100%;
+    transition: transform 450ms;
+    margin-right: 7px;
+}
+
+.rowimage:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.largeposter {
+    max-height: 300px;
+}
+
+.rowposter::-webkit-scrollbar {
+    display: none;
+}
+
+.product-header-image {
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+}
