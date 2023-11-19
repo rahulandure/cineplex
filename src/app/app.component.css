@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+.navbar .navbar-brand {
+    color: #fd0303;
+    font-family: 'Special Elite';
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fd0303;
+}
